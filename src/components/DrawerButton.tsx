@@ -3,7 +3,11 @@ import { RxHamburgerMenu } from "react-icons/rx";
 
 const DrawerButton = () => {
   return (
-    <IconButton aria-label="Select Exercises" icon={<RxHamburgerMenu />} />
+    <IconButton
+      variant="ghost"
+      aria-label="Select Exercises"
+      icon={<RxHamburgerMenu />}
+    />
   );
 };
 

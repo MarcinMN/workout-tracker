@@ -3,18 +3,13 @@ import NavBar from "./components/NavBar";
 
 function App() {
   return (
-    <Grid
-      templateAreas={{
-        base: `"nav" "main"`,
-      }}
-      templateColumns={{
-        base: "1fr",
-      }}
-    >
-      <GridItem area="nav">
+    <Grid templateAreas={`"nav" "main"`} templateColumns={"1fr"}>
+      <GridItem area="nav" bg="darkgreen">
         <NavBar />
       </GridItem>
-      <GridItem area="Main">Main</GridItem>
+      <GridItem area="main" bg="darkblue">
+        Main
+      </GridItem>
     </Grid>
   );
 }
