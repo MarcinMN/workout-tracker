@@ -1,11 +1,11 @@
 import { HStack, Heading } from "@chakra-ui/react";
-import DrawerButton from "./DrawerButton";
+import MenuButton from "./MenuButton";
 import SearchButton from "./SearchButton";
 
 const NavBar = () => {
   return (
     <HStack padding="5px" justifyContent="space-between">
-      <DrawerButton />
+      <MenuButton />
       <Heading size="lg">Workout Tracker</Heading>
       <SearchButton />
     </HStack>
