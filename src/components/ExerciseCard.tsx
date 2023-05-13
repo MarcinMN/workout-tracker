@@ -1,5 +1,4 @@
-import { Card, CardBody, CardHeader, Heading } from "@chakra-ui/react";
-import SetTotals from "./SetTotals";
+import { Card, CardBody, CardHeader, Heading, Text } from "@chakra-ui/react";
 
 const ExerciseCard = () => {
   return (
@@ -8,7 +7,7 @@ const ExerciseCard = () => {
         <Heading>Exercise Name</Heading>
       </CardHeader>
       <CardBody>
-        <SetTotals />
+        <Text>Equipment Name</Text>
       </CardBody>
     </Card>
   );
