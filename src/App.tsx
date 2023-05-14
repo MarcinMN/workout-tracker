@@ -2,6 +2,7 @@ import { Grid, GridItem } from "@chakra-ui/react";
 import NavBar from "./components/NavBar";
 import ExerciseCard from "./components/ExerciseCard";
 import SetCard from "./components/SetCard";
+import RepInput from "./components/RepInput";
 
 function App() {
   return (
@@ -9,9 +10,10 @@ function App() {
       <GridItem area="nav" bg="darkgreen">
         <NavBar />
       </GridItem>
-      <GridItem area="main" bg="darkblue">
+      <GridItem area="main">
         <ExerciseCard />
         <SetCard />
+        <RepInput />
       </GridItem>
     </Grid>
   );

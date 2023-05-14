@@ -6,11 +6,9 @@ const SetTotals = () => {
       <Box w="50px" h="50px" padding="5px 5px" textAlign="center" border="1px">
         <Text fontSize="2xl">10</Text>
       </Box>
-      <Divider orientation="vertical" />
       <Box w="50px" h="50px" padding="5px 5px" textAlign="center" border="1px">
         <Text fontSize="2xl">10</Text>
       </Box>
-      <Divider orientation="vertical" />
       <Box w="50px" h="50px" padding="5px 5px" textAlign="center" border="1px">
         <Text fontSize="2xl">10</Text>
       </Box>
