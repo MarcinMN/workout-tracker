@@ -7,7 +7,7 @@ import RepInput from "./components/RepInput";
 function App() {
   return (
     <Grid templateAreas={`"nav" "main"`} templateColumns={"1fr"}>
-      <GridItem area="nav" bg="darkgreen">
+      <GridItem area="nav" bg="green.500">
         <NavBar />
       </GridItem>
       <GridItem area="main">

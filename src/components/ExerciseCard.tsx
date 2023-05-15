@@ -1,4 +1,13 @@
-import { Card, CardBody, CardHeader, Heading, Text } from "@chakra-ui/react";
+import {
+  Button,
+  Card,
+  CardBody,
+  CardFooter,
+  CardHeader,
+  HStack,
+  Heading,
+  Text,
+} from "@chakra-ui/react";
 
 const ExerciseCard = () => {
   return (
@@ -12,6 +21,12 @@ const ExerciseCard = () => {
         </Text>
         <Text align="center">Equipment Name</Text>
       </CardBody>
+      <CardFooter padding="5px">
+        <HStack>
+          <Button colorScheme="green">Change Weight</Button>
+          <Button colorScheme="green">Change Equipment</Button>
+        </HStack>
+      </CardFooter>
     </Card>
   );
 };
