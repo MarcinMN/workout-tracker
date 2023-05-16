@@ -16,9 +16,6 @@ const ExerciseCard = () => {
         <Heading>Exercise Name</Heading>
       </CardHeader>
       <CardBody padding="5px">
-        <Text align="center" fontSize="4xl">
-          Weight
-        </Text>
         <Text align="center">Equipment Name</Text>
       </CardBody>
       <CardFooter padding="5px">

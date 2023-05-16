@@ -5,7 +5,12 @@ const SetCard = () => {
   return (
     <Card align="center" padding="20px" backgroundColor="lightblue">
       <CardBody>
-        <Text align="center">Previous:</Text>
+        <Text align="center" fontSize="4xl">
+          Weight
+        </Text>
+        <Text align="center" paddingTop="20px">
+          Previous:
+        </Text>
         <SetTotals />
         <Text align="center" fontSize="sm">
           Date
