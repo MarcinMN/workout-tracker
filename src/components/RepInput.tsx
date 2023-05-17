@@ -3,7 +3,7 @@ import React from "react";
 
 const RepInput = () => {
   return (
-    <HStack padding="10px">
+    <HStack padding="10px" marginTop="20px">
       <Text whiteSpace="nowrap">Set #1:</Text>
       <Input placeholder="Enter number of reps" />
       <Button colorScheme="green">Submit</Button>

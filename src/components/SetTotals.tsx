@@ -1,4 +1,4 @@
-import { Box, Divider, HStack, StackDivider, Text } from "@chakra-ui/react";
+import { HStack, StackDivider, Text } from "@chakra-ui/react";
 
 const SetTotals = () => {
   // Show set values inside boxes with borders
@@ -19,9 +19,15 @@ const SetTotals = () => {
   // Show set values with vertical dividers between the values
   return (
     <HStack divider={<StackDivider borderColor="gray.900" />}>
-      <Text fontSize="2xl">10</Text>
-      <Text fontSize="2xl">10</Text>
-      <Text fontSize="2xl">10</Text>
+      <Text fontSize="4xl" padding="5px">
+        10
+      </Text>
+      <Text fontSize="4xl" padding="5px">
+        10
+      </Text>
+      <Text fontSize="4xl" padding="5px">
+        10
+      </Text>
     </HStack>
   );
 };
